@@ -1,13 +1,16 @@
-#Product Information System
+## Product Information System
 
 This project is the design of a ready to use product information data management system structure, by applying the theory concept of separation of concerns to three main layers, namely data, logic and display using pure (original) PHP without the help of external databases. Instead, data is temporarily stored using a multidimensional array structure. This system displays a list of products into an HTML table and is equipped with a total stock asset calculation feature.
 
 ## Architecture
 
 Based on its architectural division, this project consists of three main files:
-- `products.php` (Data Layer): Contains an array of product commodity data.
-- `functions.php` (Processing Layer): Contains warehouse asset calculation functions and logic for critical stock filters.
-- `index.php` (Presentation Layer): Main file to render the table interface and combine all components.
+
+| File | Layer | Description |
+| --- | --- | --- |
+| `products.php` | (Data Layer) | Contains an array of product commodity data. |
+| `functions.php` | (Processing Layer) | Contains warehouse asset calculation functions and logic for critical stock filters. |
+| `index.php` | (Presentation Layer) | Main file to render the table interface and combine all components. |
 
 ## Requirements
 
