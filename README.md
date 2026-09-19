@@ -8,9 +8,9 @@ Based on its architectural division, this project consists of three main files:
 
 | File | Layer | Description |
 | --- | --- | --- |
-| `products.php` | (Data Layer) | Contains an array of product commodity data. |
-| `functions.php` | (Processing Layer) | Contains warehouse asset calculation functions and logic for critical stock filters. |
-| `index.php` | (Presentation Layer) | Main file to render the table interface and combine all components. |
+| `products.php` | Data Layer | Contains an array of product commodity data. |
+| `functions.php` | Processing Layer | Contains warehouse asset calculation functions and logic for critical stock filters. |
+| `index.php` | Presentation Layer | Main file to render the table interface and combine all components. |
 
 ## Requirements
 
